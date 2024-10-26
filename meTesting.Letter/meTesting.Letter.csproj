@@ -4,15 +4,14 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	  <PackageId>Az.Automation.Module.Letter</PackageId>
+	  <PackageProjectUrl>https://github.com/AzarakhshDemo/Automation.Modules</PackageProjectUrl>
+	  <RepositoryType>https://github.com/AzarakhshDemo/Automation.Modules</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Az.Automation.Core" Version="1.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\meTesting.Automation\meTesting.Automation.csproj" />
-    <ProjectReference Include="..\meTesting.HRM\meTesting.HRM.csproj" />
   </ItemGroup>
 
 </Project>
